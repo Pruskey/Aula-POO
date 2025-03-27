@@ -8,6 +8,9 @@ class Veiculo{
     }
     acelerar (s) {
         this.velocidade += s
+        if (s<=0){
+            console.log("Valor menor ou igual a 0!")
+        }
         console.log('VRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR')
     }
     desacelerar (s) {
